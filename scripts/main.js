@@ -1,1 +1,1 @@
-alert('main');
+console.log('hello javascript');
