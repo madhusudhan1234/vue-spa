@@ -27,9 +27,20 @@ module.exports = {
             	test: /\.js$/,
 				exclude: /node_modules/,
 				loader: "babel-loader"
+            },
+            {
+                test: /\.vue$/,
+                use: ['vue-loader']
             }
         ]
 	},
+
+    resolve: {
+        alias: {
+            'vue$': 'vue/dist/vue.esm.js'
+        }
+    },
+
 	plugins: [
         new ExtractTextPlugin("[name].css"),
         new webpack.LoaderOptionsPlugin({
