@@ -7,8 +7,6 @@ const router = new VueRouter({
   routes: routes,
 })
 
-console.log(router);
-
 Vue.use(VueRouter);
 
 const portfolioApp = new Vue({
