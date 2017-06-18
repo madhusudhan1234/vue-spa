@@ -1,13 +1,15 @@
-var webpack = require('webpack');
-var path = require('path');
+let webpack = require('webpack');
+let path = require('path');
+let glob = require('glob');
 const isProduction = (process.env.NODE_ENV === 'production');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const ProgressBarPlugin = require('progress-bar-webpack-plugin');
 
 module.exports = {
 	entry: {
 		app: [
 			'./scripts/main.js',
-			'./scss/main.scss'
+			'./scss/main.scss',
 		]
     },
 	output: {
@@ -46,6 +48,7 @@ module.exports = {
         new webpack.LoaderOptionsPlugin({
             minimize: isProduction,
         }),
+        new ProgressBarPlugin(),
     ]
 }
 if(isProduction) {

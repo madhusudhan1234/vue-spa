@@ -7,9 +7,7 @@
 		  <div class="column">
 		  	<div class="card">
 			  <div class="card-image">
-			    <figure class="image is-4by3">
-			      <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Image">
-			    </figure>
+			    <h1>First Task</h1>
 			  </div>
 			  <div class="card-content">
 			    <div class="content">
@@ -27,9 +25,7 @@
 		  <div class="column">
 		  	<div class="card">
 			  <div class="card-image">
-			    <figure class="image is-4by3">
-			      <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Image">
-			    </figure>
+			    <h1>Second Task</h1>
 			  </div>
 			  <div class="card-content">
 			    <div class="content">
@@ -47,9 +43,7 @@
 		  <div class="column">
 		  	<div class="card">
 			  <div class="card-image">
-			    <figure class="image is-4by3">
-			      <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Image">
-			    </figure>
+			    <h1>Third Task</h1>
 			  </div>
 			  <div class="card-content">
 			    <div class="content">
@@ -67,9 +61,7 @@
 		  <div class="column">
 		  	<div class="card">
 			  <div class="card-image">
-			    <figure class="image is-4by3">
-			      <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Image">
-			    </figure>
+			    <h1>Fourth Task</h1>
 			  </div>
 			  <div class="card-content">
 			    <div class="content">
