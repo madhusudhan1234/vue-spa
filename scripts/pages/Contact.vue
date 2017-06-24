@@ -1,10 +1,9 @@
 <template>
 	<div class="container has-text-centered">
-		<h1 class="title">Contact Information</h1>
 		<div class="columns">
 		  <div class="column">
 		  	<div class="tile">
-			  <article class="tile is-child notification">
+			  <article class="tile is-child contact-tile">
 		          <p class="title"><i class="fa fa-envelope-open"></i> Email</p>
 		          <p>madhusudhansubedi4@gmail.com</p>
 		        </article>
@@ -12,7 +11,7 @@
 		  </div>
 		  <div class="column">
 		  	  <div class="tile">
-			      <article class="tile is-child notification">
+			      <article class="tile is-child contact-tile">
 		               <p class="title"><i class="fa fa-phone"></i> Phone</p>
 		               <p>9843360552</p>
 		          </article>
@@ -20,7 +19,7 @@
 		  </div>
 		  <div class="column">
 				<div class="tile">
-			  		<article class="tile is-child notification">
+			  		<article class="tile is-child contact-tile">
 		          		<p class="title"><i class="fa fa-globe"></i> Website</p>
 		          		<p>madhusudhan.com.np</p>
 		        	</article>
@@ -28,10 +27,9 @@
 		  	</div>
 		</div>
 		<br>
-		<h1 class="title">Follow Me On</h1>
 		<br>
-		<nav class="level">
-		  <div class="level-item has-text-centered">
+		<nav class="level contact-level">
+			<div class="level-item has-text-centered">
 		    <div>
 		      <p class="heading">Twitter</p>
 		      <p class="title">

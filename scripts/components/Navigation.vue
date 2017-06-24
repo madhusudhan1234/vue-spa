@@ -5,14 +5,14 @@
           <div class="nav-left">
           	<router-link to="/" class="nav-item">Madhu Sudhan</router-link>
           </div>
-          <span class="nav-toggle">
+          <span class="nav-toggle" id="nav-toggle">
             <span></span>
             <span></span>
             <span></span>
           </span>
-          <div class="nav-right nav-menu">
+          <div class="nav-right nav-menu" id="nav-menu">
             <router-link to="/about-me" class="nav-item is-active">About Me</router-link>
-            <router-link to="/portfolio" class="nav-item is-active">Portfolio</router-link>
+            <!--<router-link to="/portfolio" class="nav-item is-active">Portfolio</router-link>-->
             <router-link to="/contact" class="nav-item is-active">Contact Me</router-link>
           </div>
         </div>
@@ -23,5 +23,17 @@
 <script type="text/javascript">
 	export default {
 		name: 'Navigation',
+        mounted() {
+            document.getElementById("nav-toggle").addEventListener ("click", toggleNav);
+            function toggleNav() {
+                var nav = document.getElementById("nav-menu");
+                var className = nav.getAttribute("class");
+                if(className == "nav-right nav-menu") {
+                    nav.className = "nav-right nav-menu is-active";
+                } else {
+                    nav.className = "nav-right nav-menu";
+                }
+            }
+        }
 	}
 </script>

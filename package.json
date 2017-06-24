@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server && webpack --watch",
+    "start": "webpack-dev-server && npm run watch",
     "dev": "webpack",
     "build": "export NODE_ENV=production webpack && webpack --hide-modules",
     "watch": "webpack --watch"
